@@ -70,13 +70,18 @@ body {
 
 main {
   background-color: white;
-  width: 800px;
+  min-width: none;
+  max-width: 800px;
   margin: auto;
   padding: 20px;
   text-align: justify;
   box-shadow: 3px 3px 14px;
   border-radius: 0 0 10px 10px;
   line-height: 25px;
+}
+
+img {
+  width: 100%;
 }
 
 main p {
